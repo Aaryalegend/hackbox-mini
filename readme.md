@@ -1,10 +1,7 @@
-# EVENTOMANIA
-
-Eventomania provides a centralized platform for planning, organizing, and executing college events. Powered by the MERN Stack.
+# HackBox
+Hackbox provides a centralized platform for planning, organizing, and executing college events. Powered by the MERN Stack.
 The system provides a highly intuitive and user-friendly interface, coupled with a robust set of tools that greatly enhance the execution of events.
 It streamlines the entire event management process, from event registration to post-event analysis.
-
-![DASHBOARD](./client/public/banner.jpg)
 
 ## Features
 
