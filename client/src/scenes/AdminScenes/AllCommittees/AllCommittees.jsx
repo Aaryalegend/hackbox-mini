@@ -60,19 +60,6 @@ const AllCommittees = () => {
       flex: 0.5,
     },
     {
-      field: "createdAt",
-      headerName: "Created On",
-      minWidth: 100,
-      flex: 0.5,
-      valueGetter: (params) => params.row.startDate,
-      valueFormatter: ({ value }) =>
-        moment(new Date(value)).format("Do MMM YYYY"),
-      renderCell: (params) => {
-        return moment(new Date(params.row.updatedAt)).format("Do MMM YYYY");
-      },
-      sortComparator: dayInMonthComparator,
-    },
-    {
       field: "actions",
       headerName: "Actions",
       type: "actions",
